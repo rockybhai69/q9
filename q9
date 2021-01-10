@@ -1,4 +1,4 @@
-<form action = "welcome.jsp" method = post>
+//*<form action = "welcome.jsp" method = post>
 Enter user name: <input type="text" name="user"><br>
 Enter password: <input type="text" name="pass"><br>
 <button type = "submit"> Register </button>
@@ -32,4 +32,4 @@ else
  out.println("Please login first");
  request.getRequestDispatcher("
 }
-%>
+%>*//
